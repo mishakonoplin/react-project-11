@@ -16,5 +16,6 @@ export default function useMapbox(
       center: center,
       zoom: zoom
     });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 }
